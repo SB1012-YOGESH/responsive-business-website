@@ -1,0 +1,422 @@
+.main-hero {
+  font-family: arial;
+}
+.main-hero .header-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+.main-hero .header-section .pathsoft-contanier {
+  color: #7d7d81;
+}
+.main-hero .header-section .pathsoft-contanier ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+.main-hero .main-section .multipurpose-contanier {
+  background-image: url(intro-img1.jpg);
+  height: 600px;
+  background-size: 120%;
+  background-repeat: no-repeat;
+}
+.main-hero .main-section .multipurpose-contanier .fastest-section {
+  padding: 5% 49% 0px 18%;
+}
+.main-hero .main-section .multipurpose-contanier h5 {
+  padding: 0 10px 0 0;
+  color: #3f72dc;
+}
+.main-hero .main-section .multipurpose-contanier h2 {
+  margin: 23px 20% 25px 0px;
+}
+.main-hero .main-section .multipurpose-contanier p {
+  margin: 23px 20% 25px 0px;
+}
+.main-hero .main-section .multipurpose-contanier button {
+  padding: 13px 19px 17px 18px;
+  background-color: #3f72dc;
+  color: #e9f7f3;
+  border: 1px solid #3f72dc;
+  border-radius: 8px;
+}
+.main-hero .main-section .our-services .text-services {
+  text-align: center;
+  margin: 20px 40px 0 40px;
+}
+.main-hero .main-section .our-services .text-services p {
+  color: #3f72dc;
+}
+.main-hero .main-section .our-services .text-services h2 {
+  margin: 1px 0 7px 0;
+}
+.main-hero .main-section .our-services .service-contanier {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 34px 39px 34px 45px;
+  text-align: center;
+  gap: 20px;
+}
+@media (max-width: 767px) {
+  .main-hero .main-section .our-services .service-contanier {
+    display: block;
+    margin: 0;
+  }
+}
+.main-hero .main-section .our-services .service-contanier .Corporate-contanier {
+  border: 1px solid #d4d4e1;
+  border-radius: 19px;
+  padding: 20px 42px 0 36px;
+}
+.main-hero .main-section .our-services .text-section {
+  text-align: center;
+}
+.main-hero .main-section .our-services .text-section button {
+  padding: 13px 12px 20px 17px;
+  margin-bottom: 20px;
+  background-color: #3f72dc;
+  color: #e9f7f3;
+  border: 1px solid #3f72dc;
+  border-radius: 10px;
+}
+.main-hero .main-section .our-services .text-section button i {
+  margin: 0 3px 0 3px;
+}
+.main-hero .main-section .supprot-section {
+  background-color: #f0f4f8;
+}
+.main-hero .main-section .supprot-section .leval-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 50px 10px;
+}
+.main-hero .main-section .supprot-section .leval-section .Hardware-services {
+  display: grid;
+  grid-template-columns: 8px 90px auto;
+  margin: 0 50px;
+}
+.main-hero .main-section .supprot-section .leval-section .Hardware-services h4 {
+  color: #3f72dc;
+  font-size: 14px;
+}
+.main-hero .main-section .supprot-section .leval-section .Hardware-services h2 {
+  margin: 13px 12px 15px 6px;
+  font-size: 20px;
+}
+.main-hero .main-section .supprot-section .leval-section .Hardware-services span {
+  margin-left: 10px;
+  width: 80px;
+  height: 2px;
+  background-color: #43444a;
+  display: inline-block;
+  margin-top: 30px;
+}
+.main-hero .main-section .years-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  text-align: center;
+}
+.main-hero .main-section .years-section .cricle-services h1 {
+  color: #3f72dc;
+}
+.main-hero .main-section .years-section .cricle-services h2 {
+  margin: -19% 32px 0 36px;
+}
+.main-hero .main-section .years-section .cricle-services .cricle-one {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  text-align: center;
+  border: 1px solid #3f72dc;
+  background-color: #3f72dc;
+  left: 160px;
+  top: 90px;
+}
+.main-hero .main-section .years-section .cricle-services .cricle-two {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  text-align: center;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  bottom: 135px;
+  left: 200px;
+  top: 120px;
+}
+.main-hero .main-section .years-section .cricle-services .dot-one {
+  position: absolute;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  left: 500px;
+  top: 90px;
+  border: 1px solid #3f72dc;
+  background-color: #3f72dc;
+}
+.main-hero .main-section .years-section .cricle-services .dot-two {
+  position: absolute;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  top: 170px;
+  left: 520px;
+  border-radius: 50%;
+  background-color: 1px solid #3f72dc;
+  background-color: #3f72dc;
+}
+.main-hero .main-section .years-section .development-services {
+  left: 800px;
+  margin: 28px 0px 7px 30%;
+}
+.main-hero .main-section .years-section .development-services h4 {
+  padding: 1px 49% 0px 1px;
+  font-size: 40px;
+  color: #3f72dc;
+}
+.main-hero .main-section .years-section .development-services h3 {
+  font-weight: 600;
+  margin: -15% 24% 0 0px;
+}
+.main-hero .main-section .projesct-section {
+  background-color: #f0f4f8;
+}
+.main-hero .main-section .projesct-section .wroks-sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 30px 10%;
+  gap: 20px;
+}
+@media (max-width: 767px) {
+  .main-hero .main-section .projesct-section .wroks-sections {
+    display: block;
+    margin: 0;
+  }
+}
+.main-hero .main-section .projesct-section img {
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+}
+.main-hero .main-section .projesct-section .text-projesct {
+  text-align: center;
+}
+.main-hero .main-section .projesct-section .text-projesct button {
+  margin-top: 30px;
+  padding: 13px 12px 20px 17px;
+  margin-bottom: 20px;
+  background-color: #3f72dc;
+  color: #e9f7f3;
+  border: 1px solid #3f72dc;
+  border-radius: 10px;
+}
+.main-hero .main-section .projesct-section .text-projesct button i {
+  margin: 0 3px 0 3px;
+}
+.main-hero .main-section .team-section .who-contanier {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 30px 10%;
+  gap: 20px;
+  text-align: center;
+}
+.main-hero .main-section .team-section .mary-section {
+  border: 1px solid gray;
+  border-radius: 15px;
+}
+.main-hero .main-section .people-contanier {
+  background-color: #f0f4f8;
+}
+.main-hero .main-section .people-contanier .clients-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 30px 50px;
+  gap: 20px;
+}
+.main-hero .main-section .people-contanier .clients-section img {
+  margin: 12px 17px 0 23px;
+}
+.main-hero .main-section .people-contanier .clients-section h3 {
+  text-align: center;
+  margin: -13% 23% 0 21%;
+}
+.main-hero .main-section .people-contanier .clients-section h4 {
+  text-align: center;
+  margin: 10px 15px 29px 1px;
+}
+.main-hero .main-section .people-contanier .clients-section p {
+  margin: 15px 35px;
+}
+.main-hero .main-section .people-contanier .clients-section .catherine-sericves {
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+.main-hero .main-section .people-contanier .see-contanier {
+  text-align: center;
+}
+.main-hero .main-section .people-contanier .see-contanier button {
+  padding: 13px 12px 22px 17px;
+  margin-bottom: 20px;
+  background-color: #3f72dc;
+  color: #e9f7f3;
+  border: 1px solid #3f72dc;
+  border-radius: 10px;
+}
+.main-hero .main-section .people-contanier .see-contanier button i {
+  margin: 0 3px 0 3px;
+}
+.main-hero .main-section .news-section .benefits-contanier .more-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 30px 50px;
+  gap: 20px;
+  position: relative;
+}
+.main-hero .main-section .news-section .benefits-contanier img {
+  width: 400px;
+  height: 350px;
+}
+.main-hero .main-section .news-section .benefits-contanier .function-section {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.main-hero .main-section .news-section .benefits-contanier .function-section .date-one {
+  position: relative;
+  text-align: center;
+  bottom: 15px;
+  border: 1px solid #3f72dc;
+  margin: 0 35%;
+  height: 40px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: #3f72dc;
+  color: #ffffff;
+}
+.main-hero .main-section .news-section .benefits-contanier .function-section h3 {
+  margin-left: 20px;
+}
+.main-hero .main-section .news-section .benefits-contanier .function-section p {
+  margin-left: 20px;
+}
+.main-hero .main-section .news-section .benefits-contanier .news-section {
+  text-align: center;
+}
+.main-hero .main-section .news-section .benefits-contanier .news-section button {
+  padding: 13px 12px 20px 17px;
+  margin-bottom: 20px;
+  background-color: #3f72dc;
+  color: #ffffff;
+  border: 1px solid #3f72dc;
+  border-radius: 10px;
+}
+.main-hero .main-section .news-section .benefits-contanier .news-section button i {
+  margin: 0 3px 0 3px;
+}
+.main-hero .footer-main {
+  background-color: #303036;
+  color: #cac9c9;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.main-hero .footer-main .footer-section {
+  padding: 50px 40px 19px 14px;
+}
+.main-hero .footer-main .footer-section a {
+  border: 3px solid gray;
+  margin: 10px;
+}
+.main-hero .footer-main .footer-section p {
+  margin: 43px 0 43px 0;
+}
+.main-hero .footer-main .footer-section h3 {
+  margin: -30px 24px 12px 37px;
+}
+.main-hero .footer-main .menu-footer {
+  margin: 30px 13px 0 30px;
+}
+.main-hero .footer-main .menu-footer .about-section {
+  padding-left: 30px;
+}
+.main-hero .footer-main .menu-footer ul {
+  list-style-type: none;
+  padding: 10px 6px 13px 2px;
+}
+.main-hero .footer-main .menu-footer ul li {
+  margin: 6px 0 11px 1px;
+}
+.main-hero .footer-main .footer-offer {
+  margin: 30px 12px 0 3px;
+}
+.main-hero .footer-main .footer-offer .management-section ul {
+  list-style-type: none;
+  padding: 10px 6px 13px 2px;
+}
+.main-hero .footer-main .footer-offer .management-section li {
+  margin: 6px 10px 13px 1px;
+}
+.main-hero .footer-main .contacts-footer {
+  margin: 30px 12px 0 3px;
+}
+.main-hero .footer-main .contacts-footer .mail-section ul {
+  list-style-type: none;
+  padding: 10px 6px 13px 2px;
+}
+.main-hero .footer-main .contacts-footer .mail-section li {
+  margin: 6px 10px 13px 1px;
+}
+.main-hero .footer-main .contacts-footer .mail-section .your {
+  border: 1px solid #e9f7f3;
+  border-radius: 10px;
+  background-color: #303036;
+  color: #e9f7f3;
+  padding: 12px 32px 12px 28px;
+}
+.main-hero .footer-main .contacts-footer .mail-section .Subscribe {
+  border: 1px solid #3f72dc;
+  border-radius: 15px;
+  padding: 14px 20px 11px 18px;
+  background-color: #3f72dc;
+  color: #e9f7f3;
+}
+.main-hero .footer-main .trems-footer {
+  position: relative;
+  padding-top: 40px;
+  width: 100%;
+}
+.main-hero .footer-main .trems-footer .line-footer {
+  position: absolute;
+  width: 400%;
+  top: 10px;
+  border-top: 1px solid #3a3a40;
+}
+.main-hero .footer-main .condition-footer ul {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+}
+.main-hero .footer-main .condition-footer li {
+  list-style-type: none;
+  border-bottom: 1px dotted #8f8f92;
+}
+.main-hero .footer-main .pathsoft-section {
+  position: relative;
+  left: 900px;
+  top: -40px;
+}
+.main-hero .footer-main .pathsoft-section ul {
+  display: flex;
+  justify-content: space-between;
+}
+.main-hero .footer-main .pathsoft-section li {
+  list-style-type: none;
+}
+.main-hero .footer-main .pathsoft-section button {
+  border: 1px solid #e9f7f3;
+  color: #3f72dc;
+  background-color: #e9f7f3;
+  padding: 3px 9px 8px 8px;
+}/*# sourceMappingURL=style.css.map */
